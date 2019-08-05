@@ -1,0 +1,93 @@
+body {
+  background-color: #000;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  color: #000;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  height: 5px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  display: inline-block;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: 2px 2px 2px #000000, 0px 0px 1px #0d0d0d;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; 
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #f3f3f3;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #ff0000;
+  color: #000;
+  text-align: center
+}
+
+.green {
+  background-color: #00ff00;
+  color: #000;
+  text-align: center
+}
+
+.blue {
+  background-color: #0000ff;
+  color: #000;
+  text-align: center
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-text {
+  width: 30px;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+.color-panel {
+  width: 50px;
+  border-radius: 10%;
+  display: inline-block;
+}
+
+.text-center {
+  background: #d8d8d82c;
+}
+
+#color-panel {
+  font-size: 70px;
+}
